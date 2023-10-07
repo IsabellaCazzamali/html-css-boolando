@@ -1,0 +1,21 @@
+/* #region Common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --boolando-orange: #ff6900;
+    --boolando-grey: #e7e7e7;
+    --boolando-dark-orange: #ff0000;
+    --boolando-green: #008000;
+    --boolando-black: #000000;
+    --boolando-white: #ffffff;
+}
+
+/* #endregion Common */
