@@ -39,6 +39,7 @@
     width: 80%;
     max-width: 1152px;
     margin: auto;
+    position: relative;
 }
 
 .d_flex{
@@ -126,10 +127,44 @@ a{
     font-size: 12px;
 }
 
+.window{
+    position: relative;
+}
+
 .window img{
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+
+.discount{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: var(--boolando-dark-orange);
+    font-weight: 700;
+    color: var(--boolando-white);
+    padding: 5px 10px;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+    background-color: var(--boolando-green);
+    font-weight: 700;
+    color: var(--boolando-white);
+    padding: 5px 10px;
+}
+
+.sustainability_alone{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: var(--boolando-green);
+    font-weight: 700;
+    color: var(--boolando-white);
+    padding: 5px 10px;
 }
 
 h3{
