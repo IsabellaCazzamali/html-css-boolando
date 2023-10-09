@@ -30,6 +30,10 @@
     border: 1px dashed black;
 }
 
+/* .debug footer{
+    height: 100px;
+} */
+
 /* #endregion Debug */
 
 
@@ -137,6 +141,17 @@ a{
     object-fit: cover;
 }
 
+.photo-b{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.window:hover .photo-b{
+    display: block;
+}
+
 .discount{
     position: absolute;
     bottom: 30px;
@@ -155,6 +170,18 @@ a{
     font-weight: 700;
     color: var(--boolando-white);
     padding: 5px 10px;
+}
+
+.heart{
+    position: absolute;
+    background-color: var(--boolando-white);
+    top: 10px;
+    right: 0;
+    padding: 5px 8px;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .sustainability_alone{
@@ -186,3 +213,44 @@ h3{
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+footer{
+    background-color: var(--boolando-black);
+    justify-content: space-between;
+}
+
+footer .container{
+    padding-top: 25px;
+}
+
+.h4_footer{
+    color: var(--boolando-white);
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+footer li{
+    color: var(--boolando-white);
+    list-style: none;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    font-size: 10px;
+}
+
+footer li a{
+    color: var(--boolando-white);
+}
+
+footer span{
+    color: var(--boolando-white);
+    font-size: 12px;
+}
+
+/* #endregion Footer */
