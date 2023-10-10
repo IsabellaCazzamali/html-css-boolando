@@ -50,7 +50,7 @@
     display: flex;
 }
 
-p_1{
+.p_1{
     margin: 1rem;
 }
 
@@ -222,7 +222,8 @@ footer{
 }
 
 footer .container{
-    padding-top: 25px;
+    padding-top: 20px;
+    justify-content: space-between;
 }
 
 .h4_footer{
@@ -248,9 +249,20 @@ footer li a{
     color: var(--boolando-white);
 }
 
-footer span{
+.find{
     color: var(--boolando-white);
     font-size: 12px;
+}
+
+.socials{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.icons{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* #endregion Footer */
